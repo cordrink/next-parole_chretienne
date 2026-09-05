@@ -6,7 +6,7 @@ import { SONGS } from "@/data/data"
 export default function AlphabetFilterPage() {
     return (
         <div className="w-full">
-            <Header/>
+            <Header title={"Parole Chretienne"}/>
             <div className="sub-head">
                 <ul className="flex justify-around px-8 py-4 font-bold border-t border-b border-border">
                     <li>
@@ -22,18 +22,20 @@ export default function AlphabetFilterPage() {
             </div>
             <main className="flex-1 w-full my-4">
                 <div className="w-4/5 mx-auto flex flex-col items-center justify-center gap-4">
-                    {SONGS.map((musique) => (
-                        <Link className="w-full" key={musique.id} href={`/filter-page/aphabet-filter/${musique.id}`}>
-                            <Card>
-                                <CardHeader>
-                                    <CardTitle>{musique.titre}</CardTitle>
-                                </CardHeader>
-                                <CardContent>
-                                    <p>{musique.id > 9 ? (`0${musique.id}`) : (`00${musique.id}`)}</p>
-                                </CardContent>
-                            </Card>
-                        </Link>
-                    ))}
+                    {SONGS
+                        .sort((a, b) => a.titre.localeCompare(b.titre))
+                        .map((musique) => (
+                            <Link className="w-full" key={musique.id} href={`/filter-page/aphabet-filter/${musique.id}`}>
+                                <Card>
+                                    <CardHeader>
+                                        <CardTitle>{musique.titre}</CardTitle>
+                                    </CardHeader>
+                                    <CardContent>
+                                        <p>{musique.number ? musique.number > 9 ? (`0${musique.number}`) : (`00${musique.number}`) : "000"}</p>
+                                    </CardContent>
+                                </Card>
+                            </Link>
+                        ))}
                 </div>
             </main>
         </div>

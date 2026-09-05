@@ -20,7 +20,7 @@ export const SONGS: Song[] = [
         created_at: "2026-08-06 11:19:04.296934+00",
         updated_at: "2026-08-06 11:19:04.296934+00",
         tags: "je suis, jeune",
-        number: null,
+        number: 3,
         is_favorite: null,
         comment: null
     },
@@ -32,7 +32,7 @@ export const SONGS: Song[] = [
         created_at: "2026-08-06 11:19:04.296934+00",
         updated_at: "2026-08-06 11:19:04.296934+00",
         tags: "le seigneur, Venez",
-        number: null,
+        number: 17,
         is_favorite: null,
         comment: null
     },
@@ -44,7 +44,7 @@ export const SONGS: Song[] = [
         created_at: "2026-08-07 13:38:21.682568+00",
         updated_at: "2026-08-07 13:38:21.682568+00",
         tags: "Alléluia",
-        number: null,
+        number: 95,
         is_favorite: null,
         comment: null
     },
@@ -56,7 +56,7 @@ export const SONGS: Song[] = [
         created_at: "2026-08-07 13:38:21.682568+00",
         updated_at: "2026-08-07 13:38:21.682568+00",
         tags: "Mais nous",
-        number: null,
+        number: 8,
         is_favorite: null,
         comment: null
     },
@@ -68,7 +68,7 @@ export const SONGS: Song[] = [
         created_at: "2026-08-07 13:38:21.682568+00",
         updated_at: "2026-08-07 13:38:21.682568+00",
         tags: "rendez-vous",
-        number: null,
+        number: 84,
         is_favorite: null,
         comment: null
     },
@@ -80,7 +80,7 @@ export const SONGS: Song[] = [
         created_at: "2026-08-07 13:38:21.682568+00",
         updated_at: "2026-08-07 13:38:21.682568+00",
         tags: "souffle, saint-esprit",
-        number: null,
+        number: 29,
         is_favorite: null,
         comment: null
     },
@@ -92,7 +92,7 @@ export const SONGS: Song[] = [
         created_at: "2026-08-11 11:00:39.660679+00",
         updated_at: "2026-08-11 11:00:39.660679+00",
         tags: "Chrétien",
-        number: null,
+        number: 57,
         is_favorite: null,
         comment: null
     },
@@ -104,7 +104,7 @@ export const SONGS: Song[] = [
         created_at: "2026-08-11 11:00:39.660679+00",
         updated_at: "2026-08-11 11:00:39.660679+00",
         tags: "Esprit",
-        number: null,
+        number: 73,
         is_favorite: null,
         comment: null
     },
@@ -116,7 +116,7 @@ export const SONGS: Song[] = [
         created_at: "2026-08-11 11:00:39.660679+00",
         updated_at: "2026-08-11 11:00:39.660679+00",
         tags: "Tenons",
-        number: null,
+        number: 9,
         is_favorite: null,
         comment: null
     },
@@ -128,7 +128,7 @@ export const SONGS: Song[] = [
         created_at: "2026-08-17 11:45:44.570549+00",
         updated_at: "2026-08-17 11:45:44.570549+00",
         tags: "ravive",
-        number: null,
+        number: 18,
         is_favorite: null,
         comment: null
     },
@@ -140,7 +140,7 @@ export const SONGS: Song[] = [
         created_at: "2026-08-17 11:52:44.029951+00",
         updated_at: "2026-08-17 11:52:44.029951+00",
         tags: "Oui",
-        number: null,
+        number: 99,
         is_favorite: null,
         comment: null
     },
@@ -152,7 +152,7 @@ export const SONGS: Song[] = [
         created_at: "2026-08-17 11:57:57.271517+00",
         updated_at: "2026-08-17 11:57:57.271517+00",
         tags: "retourner",
-        number: null,
+        number: 25,
         is_favorite: null,
         comment: null
     },
@@ -164,7 +164,7 @@ export const SONGS: Song[] = [
         created_at: "2026-08-17 12:07:22.84655+00",
         updated_at: "2026-08-17 12:07:22.84655+00",
         tags: "mon libérateur",
-        number: null,
+        number: 16,
         is_favorite: null,
         comment: null
     },
@@ -176,7 +176,7 @@ export const SONGS: Song[] = [
         created_at: "2026-08-17 12:14:25.265931+00",
         updated_at: "2026-08-17 12:14:25.265931+00",
         tags: "souviens toi",
-        number: null,
+        number: 21,
         is_favorite: null,
         comment: null
     },
@@ -188,7 +188,7 @@ export const SONGS: Song[] = [
         created_at: "2026-08-19 09:13:42.186416+00",
         updated_at: "2026-08-19 09:13:42.186416+00",
         tags: "je demande",
-        number: null,
+        number: 38,
         is_favorite: null,
         comment: null
     },
@@ -200,7 +200,7 @@ export const SONGS: Song[] = [
         created_at: "2026-08-19 09:20:44.47305+00",
         updated_at: "2026-08-19 09:20:44.47305+00",
         tags: "ton ami",
-        number: null,
+        number: 46,
         is_favorite: null,
         comment: null
     },
@@ -212,7 +212,7 @@ export const SONGS: Song[] = [
         created_at: "2026-08-19 09:29:17.388058+00",
         updated_at: "2026-08-19 09:29:17.388058+00",
         tags: "cherche",
-        number: null,
+        number: 98,
         is_favorite: null,
         comment: null
     },
@@ -224,7 +224,7 @@ export const SONGS: Song[] = [
         created_at: "2026-08-19 09:34:25.44686+00",
         updated_at: "2026-08-19 09:34:25.44686+00",
         tags: "tandis que",
-        number: null,
+        number: 83,
         is_favorite: null,
         comment: null
     },
@@ -236,7 +236,7 @@ export const SONGS: Song[] = [
         created_at: "2026-08-19 09:38:54.540528+00",
         updated_at: "2026-08-19 09:38:54.540528+00",
         tags: "laissez-moi",
-        number: null,
+        number: 45,
         is_favorite: null,
         comment: null
     },
@@ -248,7 +248,7 @@ export const SONGS: Song[] = [
         created_at: "2026-08-24 12:23:59.494374+00",
         updated_at: "2026-08-24 12:23:59.494374+00",
         tags: "reviendra",
-        number: null,
+        number: 69,
         is_favorite: null,
         comment: null
     },
@@ -260,7 +260,7 @@ export const SONGS: Song[] = [
         created_at: "2026-08-24 12:55:54.904082+00",
         updated_at: "2026-08-24 12:55:54.904082+00",
         tags: "Gethsémané",
-        number: null,
+        number: 44,
         is_favorite: null,
         comment: null
     },
@@ -272,7 +272,7 @@ export const SONGS: Song[] = [
         created_at: "2026-08-24 13:14:19.242185+00",
         updated_at: "2026-08-24 13:14:19.242185+00",
         tags: "le seigneur",
-        number: null,
+        number: 39,
         is_favorite: null,
         comment: null
     },
@@ -284,7 +284,7 @@ export const SONGS: Song[] = [
         created_at: "2026-08-24 13:17:34.797227+00",
         updated_at: "2026-08-24 13:17:34.797227+00",
         tags: "reviens",
-        number: null,
+        number: 56,
         is_favorite: null,
         comment: null
     },
@@ -296,7 +296,7 @@ export const SONGS: Song[] = [
         created_at: "2026-08-24 13:23:08.02398+00",
         updated_at: "2026-08-24 13:23:08.02398+00",
         tags: "sonnez",
-        number: null,
+        number: 82,
         is_favorite: null,
         comment: null
     },

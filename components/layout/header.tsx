@@ -1,7 +1,7 @@
 import { Menu, Search } from "lucide-react";
 import Link from "next/link";
 
-export default function Header() {
+export default function Header({title}  : {title: string}) {
   return (
     <header className="flex items-center justify-between px-4 py-3 border-b border-border bg-background">
       <button
@@ -12,7 +12,7 @@ export default function Header() {
         <Menu className="w-5 h-5" />
       </button>
       <h1 className="text-lg font-semibold">
-        <Link href="/">Parole Chrétienne</Link>
+        <Link href="/">{title}</Link>
       </h1>
       <button
         type="button"

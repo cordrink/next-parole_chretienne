@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <>
       <div className="w-full">
-        <Header />
+        <Header title={"Parole Chretienne"} />
         <div className="sub-head">
           <ul className="flex justify-around px-8 py-4 font-bold border-t border-b border-border">
             <li>

@@ -13,7 +13,7 @@ export default function ThemeFilterPage() {
   return (
     <>
       <div className="w-full">
-        <Header />
+        <Header title={"Parole chretienne"} />
         <div className="sub-head">
           <ul className="flex justify-around px-8 py-4 font-bold border-t border-b border-border">
             <li>
@@ -30,7 +30,7 @@ export default function ThemeFilterPage() {
         <main className="flex-1 w-full my-4">
           <div className="w-4/5 mx-auto flex flex-col items-center justify-center gap-4">
             {musiquesParTheme.map((musique) => (
-              <Link className="w-full" key={musique.numero} href="/">
+              <Link className="w-full" key={musique.numero} href="/filter-page/theme-filter">
                 <Card>
                   <CardHeader>
                     <CardTitle>{musique.title}</CardTitle>

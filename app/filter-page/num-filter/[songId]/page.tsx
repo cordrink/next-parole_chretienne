@@ -20,7 +20,7 @@ export default async function Page({params}: PageProps) {
     return (
         <div  className="w-4/5 m-auto mt-4">
             <Button>
-                <Link href="/filter-page/aphabet-filter" >← Retour </Link>
+                <Link href="/filter-page/num-filter" >← Retour </Link>
             </Button>
 
             <Card className="mt-4">
